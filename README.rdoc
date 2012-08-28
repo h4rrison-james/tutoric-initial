@@ -1,3 +1,10 @@
+== Welcome to Tutoric
+
+Tutoric is a web-application designed to connect tutors and students easily and conveniently.
+Development commenced in early August 2012, and the final product is aimed to be launched around February 2013 in time for the school year.
+
+All content and code is copyright John Verran and Harrison Sweeney.
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create

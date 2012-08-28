@@ -1,0 +1,21 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	padding-top: 60px;
+	background: url('/assets/tiny_grid.png') repeat;
+}
+
+.hero-unit p {
+	//width: 500px;
+}
+
+.hero-unit button {
+	margin-left: 10px;
+}
+
+#input-form {
+	padding: 10px;
+	font-size: 20px;
+	line-height: 25px;
+}

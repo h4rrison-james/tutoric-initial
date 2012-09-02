@@ -43,6 +43,8 @@ GEM
     excon (0.16.2)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    font-awesome-rails (0.4.0)
+      railties (~> 3.1)
     heroku (2.30.5)
       heroku-api (~> 0.3.4)
       launchy (>= 0.3.2)
@@ -132,6 +134,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  font-awesome-rails
   heroku
   jquery-rails
   less-rails

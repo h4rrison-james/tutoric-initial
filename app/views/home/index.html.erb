@@ -1,27 +1,13 @@
-<script type="text/javascript">
-//Validate the email form using jQuery
-$(document).ready(function () {
-	alert('document ready');
-	$(“#sign-up”).validate({
-		debug: true,
-		rules: {
-			email: {required: true, email: true},
-		}
-	});
-});
-</script>
-
 <div class="hero-unit container center">
 	<h1>Tutoric</h1>
-	<p>Connecting tutors to students.</p>
+	<p>Connecting tutors and students.</p>
 	<p><small>Enter your email address below and we'll let you know when we're approaching launch next summer.</small></p>
 	<!-- Begin MailChimp Signup Form -->
-	<form action="http://tutoric.us5.list-manage2.com/subscribe/post?u=794036c35b7ea409222736784&amp;id=c8b042b541" method="post" class="form-inline" id="sign-up">
-		<input type="text" value="" name="email" class="input-xxlarge" id="input-form">
-		<input type="submit" value="Submit" name="subscribe" class="btn btn-primary btn-large">
-		<div id="mce-responses" class="clear">
-			<div class="response alert alert-error" id="mce-error-response" style="display:none"></div>
-			<div class="response alert alert-success" id="mce-success-response" style="display:none"></div>
+	<form action="http://tutoric.us5.list-manage2.com/subscribe/post?u=794036c35b7ea409222736784&amp;id=c8b042b541" method="post" class="form-inline" id="signUp">
+			<input type="text" name="email" class="span7 email required" id="input-form">
+			<input type="submit" value="Submit" name="subscribe" class="btn btn-primary btn-large">
+		<div class="row-fluid">
+			<div id="error" style="display:none; margin-top: 15px;" class="span5 alert alert-error"></div>
 		</div>
 	</form>
 	<!--End MailChimp Signup Form-->
@@ -32,12 +18,12 @@ $(document).ready(function () {
 		  <p>As a partnership with over 10 years of experience in the tutoring market, we understand the needs of tutors and the shortcomings of the services that are currently available.</p>
 	  </div>
 	  <div class="span4">
-		  <h3><i class="icon-cogs" style="margin: 7px 10px 0 0;"></i> Tailored to your needs.</h3>
-		  <p>Tutoric offers an advertising service that is tailor-made to accommodate the needs of tutors. </p>
+	  	  <h3><i class="icon-time" style="margin: 7px 10px 0 0;"></i> Flexible, like you.</h3>
+	  	  <p>We understand that your schedule is dynamic - with Tutoric, you’ll have the ability to change your availability as many times as you like.</p>
 	  </div>
 	  <div class="span4">
-		  <h3><i class="icon-time" style="margin: 7px 10px 0 0;"></i> Flexible, like you.</h3>
-		  <p>We understand that your schedule is dynamic - with Tutoric, you’ll have the ability to change your availability as many times as you like.</p>
+		  <h3><i class="icon-file" style="margin: 7px 10px 0 0;"></i> Help included.</h3>
+		  <p>As part of the package, we offer access to useful tutoring resources such as course outlines, solutions and readers.</p>
 	  </div>
 	</div>
 </div><!--/.container -->

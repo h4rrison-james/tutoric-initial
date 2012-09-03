@@ -2,5 +2,8 @@
 $(document).ready(function () {
 	$("#signUp").validate({
 		errorLabelContainer: "#error",
+		invalidHandler: function(form, validator) {
+			$("div#error").show();
+		}
 	});
 });

@@ -1,5 +1,7 @@
 Tutoric::Application.routes.draw do
   get "home/index"
+  get "home/thankyou"
+  get "home/validate"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -7,6 +9,8 @@ Tutoric::Application.routes.draw do
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
+  match 'thankyou' => 'home#thankyou'
+  match 'validate' => 'home#validate'
 
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase

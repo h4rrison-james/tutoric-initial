@@ -12,3 +12,33 @@ body {
 	font-size: 20px;
 	line-height: 25px;
 }
+
+ .res {
+ 	float: right;
+ 	margin-top: 20px;
+ 	margin-right: 10px;
+ 	font-size: 11pt;
+ 	font-weight: lighter;
+ 	color: #EEE;
+ 	padding: 10px 20px 10px 20px;
+ 	background: black;
+ 	-webkit-border-radius: 20px;
+ 	-moz-border-radius: 20px;
+ 	border-radius: 20px;
+ }
+ 
+ .mail {
+ 	 float: right;
+ 	 margin-top: 20px;
+ 	 margin-left: 10px;
+ 	 text-indent: -1px;
+ 	 line-height: 20px;
+ 	 font-size: 11pt;
+ 	 font-weight: lighter;
+ 	 color: #EEE;
+ 	 padding: 10px;
+ 	 background: black;
+ 	 -webkit-border-radius: 20px;
+ 	 -moz-border-radius: 20px;
+ 	 border-radius: 20px;
+ }
